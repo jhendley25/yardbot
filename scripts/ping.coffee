@@ -9,7 +9,7 @@
 
 module.exports = (robot) ->
   robot.respond /PING$/i, (msg) ->
-    msg.send "Fuck you"
+    msg.send "PONG"
 
   robot.respond /ECHO (.*)$/i, (msg) ->
     msg.send msg.match[1]
@@ -21,3 +21,6 @@ module.exports = (robot) ->
     msg.send "Goodbye, cruel world."
     process.exit 0
 
+  robot.respond /WHO ARE YOU$/i, (msg) ->
+    msg.send "Hi, I'm IronBot"
+    
