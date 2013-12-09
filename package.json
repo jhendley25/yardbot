@@ -18,7 +18,9 @@
     "hubot": "2.3.2",
     "hubot-scripts": ">= 2.1.0",
     "optparse": "1.0.3",
-    "hubot-hipchat": "~2.5.1-5"
+    "underscore": "~1.5.2",
+    "hubot-hipchat": "~2.5.1-5",
+    "sandbox": "~0.8.3"
   },
   "engines": {
     "node": "0.6.x",
