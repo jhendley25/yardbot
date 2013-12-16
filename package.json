@@ -31,6 +31,6 @@
     "npm": ">= 1.1.x"
   },
   "devDependencies": {
-    "chess": "~0.1.5"
+    "chess": "~0.1.3"
   }
 }
