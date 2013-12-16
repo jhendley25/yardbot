@@ -22,6 +22,7 @@ module.exports = (robot) ->
     msg
       .http("https://www.googleapis.com/customsearch/v1")
       .query
+        key: process.env.HUBOT_GOOGLE_SEARCH_KEY
         cx: process.env.HUBOT_GOOGLE_SEARCH_CX
         fields: "items(title,link)"
         num: 5
